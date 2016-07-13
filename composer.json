@@ -1,0 +1,34 @@
+{
+    "name": "haldayne/calendar-iterator",
+    "description": "PHP iterators for simple calendar traversal.",
+    "keywords": [ "calendar", "iterator" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bishop Bettini", "email": "bishop@php.net"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": "^5.5.0 || ^7.0"
+    },
+    "autoload": {
+        "classmap": [ "src" ],
+        "psr-4": {
+            "Haldayne\\CalendarIterator\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^5.0",
+        "fzaninotto/faker": "^1.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Haldayne\\CalendarIterator\\": "tests/"
+        }
+    }
+}
