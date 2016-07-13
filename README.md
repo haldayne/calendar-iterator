@@ -34,6 +34,7 @@ $days->addExclusion(easter_date(2013));
 foreach ($days as $day) {
     echo $day;
 }
+```
 
 ## Installation with Composer
 
