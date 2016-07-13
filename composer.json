@@ -1,7 +1,7 @@
 {
     "name": "haldayne/calendar-iterator",
     "description": "PHP iterators for simple calendar traversal.",
-    "keywords": [ "calendar", "iterator" ],
+    "keywords": [ "calendar", "iterator", "DateTime", "DateInterval", "DatePeriod" ],
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,8 @@
     ],
     "type": "library",
     "require": {
-        "php": "^5.5.0 || ^7.0"
+        "php": "^5.5.0 || ^7.0",
+        "nesbot/carbon": "^1.21"
     },
     "autoload": {
         "classmap": [ "src" ],
